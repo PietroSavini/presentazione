@@ -46,7 +46,7 @@ createApp({
           link: "https://www.w3schools.com/php/func_math_pow.asp",
         },
         {
-          name: "rand($minimo, $massimo]):",
+          name: "rand($minimo, $massimo):",
           description:
             "La funzione rand() genera un numero casuale compreso tra il valore minimo e il valore massimo specificati.",
           variousInputs: true,
