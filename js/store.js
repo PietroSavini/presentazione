@@ -9,10 +9,10 @@ createApp({
             "La funzione abs() restituisce il valore assoluto di un numero, cioè il suo valore numerico senza il segno.",
           variousInputs: false,
           link: "https://www.w3schools.com/php/func_math_abs.asp",
-          
+
         },
         {
-          name: "round($numero [, $precisione])",
+          name: "round($numero, $precisione)",
           description:
             "La funzione round() arrotonda un numero al numero intero più vicino. È possibile specificare una precisione opzionale per arrotondare il numero a un numero specifico di decimali.",
           variousInputs: true,
@@ -46,7 +46,7 @@ createApp({
           link: "https://www.w3schools.com/php/func_math_pow.asp",
         },
         {
-          name: "rand([$minimo, $massimo]):",
+          name: "rand($minimo, $massimo]):",
           description:
             "La funzione rand() genera un numero casuale compreso tra il valore minimo e il valore massimo specificati.",
           variousInputs: true,
