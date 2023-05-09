@@ -37,7 +37,7 @@
     if (isset($_GET['card-n-6'])) {
         $inputValue = $_GET['card-n-6'];
         $variable = $_GET['card-var-n-6'];
-        $result = rand($inputValue);
+        $result = rand($inputValue,$variable);
     }
     //min
     if (isset($_GET['card-n-7'])) {
@@ -96,13 +96,11 @@
                     <h6 class="card-subtitle mb-2 text-muted">Esempio generico di funzione</h6>
                     <form action="index.php" method="GET">
                         <label :for="'user-input-' + index">Inserisci numero/i</label>
-                        <input type="text" :id= "'user-input-' + index" :name="'card-n-' + index">
+                        <input type="text" :id="'user-input-' + index" :name="'card-n-' + index">
                         <input v-if="card.variousInputs" type="text" :name="'card-var-n-' + index" :id="'user-input-var-' + index">
                         <button class="btn btn-primary" type="submit">Invia</button>
                     </form>
                     <!-- RISULTATO -->
-                    
-                    
                     <a :href="card.link" class="card-link">Link alla funzione su W3Schools</a>
                 </div>
             </div>
